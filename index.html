@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" -->
+        <!-- integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="./css/home.css">    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script src="./js/home.js"></script>
+    <script src="./js/catalog.js"></script>
+    <link rel="stylesheet" href="./css/catalog.css">
+    <title>WEB PROJECT</title>
+</head>
+<body>
+  
+    <div class="container">
+       <table class="table">
+            <tr>
+          <th><img src="./img/kisspng-vector-graphics-book-stock-illustration-logo-research-vector-book-transparent-amp-png-clipart-5cce8c440022e9.3914588515570401960006.png" alt="">
+          </th>
+          <th colspan="4" style="height: 100px;">
+            <h1>Pushtak Bhavan</h1>
+          </th>
+        </tr>
+            <tr class="nav" id="nav">
+               
+                <td id="this"><a href="#" ><p >Home</p></a></td>
+                
+                <td><a href="./pages/login.html"><p>Login</p></a>
+                </td>
+                <td><a href="./pages/register.html"><p>Register</p></a>
+                </td>
+                <td><a href="./pages/catalog.html"><p>Catalog</p></a>
+                </td>
+                <td><a href="./pages/cart.html"><p><span>Cart</span> <i class="bi bi-cart" style="font-size:18px"></i>
+                <span class='badge badge-warning' id='lblCartCount'> 0 </span></a>
+                </td>
+            </tr>
+       <tr>
+        <td class="sub"><ul id="subject">
+            <li class="subject" id="CSE" onclick="redirect_to_()">CSE</li>
+            <li class="subject" id="ECE" onclick="redirect_to_()">ECE</li>
+            <li class="subject" id="EEE" onclick="redirect_to_()">EEE</li>
+            <li class="subject" id="Civil" onclick="redirect_to_()">Civil</li>
+        </ul></td>
+        <td class="book" colspan="4">
+            <div class="desc">
+                <h1>About</h1>
+                <p>KIET Knowledge Resource Centre (KIET-KRC) was established in 1998. KIET–KRC has one Central Library which has a wide collection of books, periodicals, e-resources etc. It has more than 1.82 lakh books on Engineering, Management, Pharmacy, Science, Humanities etc. with more than 11128 titles and has subscribed more than 128 print periodicals. It has also subscribed to E-resources (e-books, e-journals, articles etc.) through Myloft AKTU Nalanda E-consortium.</p>
+                <br>
+                <p>KIET-KRC is fully air conditioned and has separate E-learning section with internet connectivity for accessing e-resources & other sites of user’s interest. It is fully automated with KOHA software. KIET-KRC has separate facility of Book-Bank with more than 1.10 lac books, under which books are issued to the students for entire semester from KRC Book-Bank.  In addition to this the Institute has 8 departmental Libraries for reference purpose.</p>
+                <div class="button"><a href="./pages/catalog.html"><button class="btn-add" >Buy Books</button></a></div>
+            </div>
+        </td>
+       </tr>
+       </table>
+    </div>
+</body>
+<script src="./js/data.js"></script>
+  <script src="./js/cart.js"></script>
+  <script src="./js/catalog.js"></script>
+</html>

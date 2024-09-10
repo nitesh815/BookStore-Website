@@ -1,0 +1,58 @@
+.login,
+.register {
+  width: 100%;
+
+  max-width: 470px;
+  align-items: center;
+  box-sizing: border-box;
+  margin: 100px AUTO;
+  margin-top: 10px;
+  border-radius: 20px;
+  padding: 40px;
+  text-align: center;
+  box-shadow: 3px 3px 10px 1px rgba(255, 255, 255, 0.4);
+  background-color: rgba(212, 212, 212, 0.408);
+  box-shadow: inset 3px 3px 10px 1px rgba(255, 255, 255, 0.4);
+}
+.head {
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(38, 35, 35, 0.619);
+}
+input,
+textarea {
+  margin-bottom: 10px;
+  border: none;
+  font-family: "Jost", sans-serif;
+  border: 0;
+  outline: 0;
+
+  color: #474747;
+  padding: 10px 25px;
+  border-radius: 30px;
+  flex: 1;
+  margin-right: 16px;
+  box-shadow: 3px 3px 10px 1px rgba(255, 255, 255, 0.4);
+  background-color: #d5d0d0c7;
+
+  box-shadow: inset 3px 3px 10px 1px rgba(255, 255, 255, 0.4);
+}
+
+i {
+  color: rgb(0, 0, 0);
+}
+#submit,
+#reset {
+  background: linear-gradient(190deg, rgb(70, 230, 255), rgb(255, 116, 255));
+  border-style: none;
+  border-radius: 10cm;
+  height: 25px;
+  width: 25%;
+  color: rgb(255, 255, 255);
+  text-decoration: solid;
+  text-align: center;
+  font-weight: bold;
+}
+input[type="radio"] {
+  margin: 2px;
+  margin-bottom: 10px;
+}
